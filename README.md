@@ -76,7 +76,7 @@ To deploy on Render:
 
 ## Example Screenshots
 
-![Python_Dashboard_Web](https://github.com/user-attachments/assets/0ea54fce-ed37-4b48-8bf3-77c06f03db35)
+![Python_Dashboard_Web](https://github.com/user-attachments/assets/1053660b-001a-4080-983d-66b843375845)
 
 ## License
 
