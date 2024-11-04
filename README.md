@@ -65,37 +65,6 @@ To run this project locally, follow the instructions below:
   - **Volume Analysis**: Compare daily and average volume for insights on market momentum.
   - **RSI and MACD**: Identify potential buy/sell opportunities with these technical indicators.
 
-## Deployment
-
-### Heroku Deployment
-
-To deploy this project on Heroku, follow these steps:
-
-1. **Install the Heroku CLI** (if not already installed).
-2. **Login** to Heroku and create a new app:
-   ```bash
-   heroku login
-   heroku create nirmalkumarshiroya-stock-analysis
-   ```
-3. **Push Code** to Heroku:
-   ```bash
-   git push heroku main
-   ```
-4. **Open the App**:
-   ```bash
-   heroku open
-   ```
-   The app will be accessible at `https://nirmalkumarshiroya-stock-analysis.herokuapp.com`.
-
-### Render Deployment
-
-To deploy on Render:
-
-1. **Sign Up** at [Render](https://render.com/) and link your GitHub repository.
-2. **Create a New Web Service** from the Render dashboard.
-3. **Select your repository**, choose the branch, and set the start command as `python app.py`.
-4. **Deploy** and get the URL to access the app.
-
 ## Example Screenshots
 
 [Include a screenshot here once the app is deployed]
