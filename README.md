@@ -90,4 +90,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Developed by **Nirmalkumar Shiroya** - [Your Portfolio](#insert-your-portfolio-link-here)
+Developed by **Nirmalkumar Shiroya** - [Portfolio Project](https://stock-analysis-p72s.onrender.com/)
