@@ -1,3 +1,4 @@
+import os
 import dash
 from dash import dcc, html, Input, Output
 import yfinance as yf
@@ -313,4 +314,5 @@ def update_dashboard(stock, interval, start_date, end_date):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get('PORT', 8050))  # Default to 8050 if PORT is not set
+    app.run_server(host='0.0.0.0', port=port)
