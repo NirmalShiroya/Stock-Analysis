@@ -4,7 +4,7 @@ S&amp;P 500 Insights: Market Trends &amp; Stock Analysis
 
 ## Overview
 
-The **S&P 500 Insights: Market Trends & Stock Analysis Dashboard** is an interactive tool designed to analyze and track the trends of S&P 500 stocks. This web application provides essential stock insights, technical indicators, and performance metrics, making it a valuable tool for traders, investors, and financial analysts. The dashboard is built using Python, Dash, and Plotly, and pulls real-time data from Yahoo Finance.
+The **S&P 500 Insights: Market Trends & Stock Analysis Dashboard** is designed to analyze and track the trends of S&P 500 stocks. This dashboard provides essential stock insights, technical indicators, and performance metrics, making it a valuable for investors, and aspiring analysts. The dashboard is built using Python, Dash, and Plotly, and pulls real-time data from Yahoo Finance.
 
 ## Features
 
