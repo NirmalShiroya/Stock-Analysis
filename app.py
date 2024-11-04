@@ -313,6 +313,18 @@ def update_dashboard(stock, interval, start_date, end_date):
     return kpis, price_fig, volume_fig, moving_avg_fig, rsi_fig, macd_fig
 
 # Run the app
+
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8050))  # Default to 8050 if PORT is not set
+    # Get the PORT environment variable
+    port_value = os.environ.get('PORT', '8050')  # Default to '8050' if PORT is not set
+
+    try:
+        # Attempt to convert the PORT value to an integer
+        port = int(port_value)
+    except ValueError:
+        # If conversion fails, print an error and default to 8050
+        print(f"Warning: PORT value '{port_value}' is invalid. Defaulting to port 8050.")
+        port = 8050
+
+    # Run the app server
     app.run_server(host='0.0.0.0', port=port)
